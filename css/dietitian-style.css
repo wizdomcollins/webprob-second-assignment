@@ -58,14 +58,14 @@ main {
     padding: 40px 20px;
 }
 
-.dietitian-container {
+.dietitian {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 20px;
 }
 
-.dietitian-card {
+.dietitian {
     background: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -75,11 +75,11 @@ main {
     transition: transform 0.3s;
 }
 
-.dietitian-card:hover {
+.dietitian:hover {
     transform: scale(1.05);
 }
 
-.dietitian-card img {
+.dietitian img {
     width: 100%;
     height: 200px; /* Set a fixed height for uniformity */
     border-radius: 8px;
@@ -96,8 +96,7 @@ h2 {
     font-size: 1.8em;
 }
 
-.service-card,
-.review-card {
+.service-card, .review-card {
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -116,4 +115,3 @@ footer {
     background-color: #333;
     color: white;
 }
-
